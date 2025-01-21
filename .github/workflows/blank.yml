@@ -39,3 +39,6 @@ jobs:
         run: |
           pwd
           ls -alh
+          
+      - name: Run a bash script
+        run: bash script.sh
