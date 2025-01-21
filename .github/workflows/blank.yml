@@ -50,7 +50,7 @@ jobs:
         run: bash script.sh
 
       - name: Print env vars
-        run: echo $VAR1 $VAR2 ${{ secrets.MY_SECRET_VAR} }
+        run: echo $VAR1 $VAR2 ${{ secrets.MY_SECRET_VARv }}
         env:
           VAR1: "secret 1"
           VAR2: "another secret value"
